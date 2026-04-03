@@ -17,8 +17,8 @@ export default function ContactCTA() {
   const [fileWarning, setFileWarning] = useState("");
   const [submitError, setSubmitError] = useState("");
 
-  const formRef = useRef(null);
-  const fileInputRef = useRef(null);
+  const formRef = useRef<HTMLFormElement | null>(null);
+  const fileInputRef = useRef<HTMLInputElement | null>(null);
 
   const resetFormState = () => {
     setIsSubmitting(false);
@@ -36,7 +36,7 @@ export default function ContactCTA() {
     }
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setSubmitError("");
     setFileWarning("");
@@ -91,7 +91,7 @@ export default function ContactCTA() {
     }
   };
 
-  const handleFileChange = (e) => {
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
 
     setSubmitError("");
