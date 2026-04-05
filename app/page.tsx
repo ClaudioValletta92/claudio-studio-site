@@ -2,24 +2,23 @@ import Counter from "./components/Counter";
 import ContactCTA from "./components/ContactCTA";
 
 export const metadata = {
-  title:
-    "Claudio Valletta | Agenzia di Divulgazione e Comunicazione Scientifica B2B",
+  title: "Claudio Valletta | Comunicazione scientifica per aziende",
   description:
-    "Trasformiamo paper, dati e tecnologie in asset di fiducia per aziende pharma, tech e green. Video scientifici che generano lead qualificati e posizionano il tuo brand.",
+    "Aiuto aziende e brand innovativi a spiegare in modo chiaro e credibile ciò che fanno, trasformando concetti complessi in contenuti che aumentano fiducia, comprensione e probabilità di scelta.",
   keywords: [
-    "agenzia divulgazione scientifica B2B",
-    "comunicazione scientifica aziendale",
-    "video per aziende farmaceutiche",
-    "marketing scientifico",
-    "content creator scienza imprese",
-    "lead generation scientifica",
+    "comunicazione scientifica per aziende",
+    "video scientifici per brand",
+    "divulgazione scientifica B2B",
+    "content creator per aziende tech",
+    "video per aziende innovative",
+    "comunicazione innovazione e tecnologia",
   ],
   openGraph: {
-    title: "Claudio Valletta | Agenzia di Divulgazione Scientifica B2B",
+    title: "Claudio Valletta | Comunicazione scientifica per aziende",
     description:
-      "Video scientifici che convertono. Per aziende che vogliono essere leader di fiducia nel proprio settore.",
+      "Contenuti scientifici e video branded per aziende che vogliono spiegare meglio innovazione, tecnologia e prodotti complessi e facilitare la scelta del cliente.",
     url: "https://www.claudiovalletta.it",
-    siteName: "Claudio Valletta Network",
+    siteName: "Claudio Valletta",
     locale: "it_IT",
     type: "website",
   },
